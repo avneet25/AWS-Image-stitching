@@ -13,7 +13,7 @@ import AWSCore
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout,UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate {
     @IBOutlet weak var goBtn: UIButton!
     
-    let bucketName = "panorama359"
+    let bucketName = "XXXXXXXXXX"
     var url: URL!
     var newImageView = UIImageView()
     @IBOutlet weak var cv: UICollectionView!
