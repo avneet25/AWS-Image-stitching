@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46315C59274CC75D009FAE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46315C58274CC75D009FAE1A /* AppDelegate.swift */; };
+		46315C5B274CC75D009FAE1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46315C5A274CC75D009FAE1A /* SceneDelegate.swift */; };
+		46315C5D274CC75D009FAE1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46315C5C274CC75D009FAE1A /* ViewController.swift */; };
+		46315C60274CC75D009FAE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46315C5E274CC75D009FAE1A /* Main.storyboard */; };
+		46315C62274CC75E009FAE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46315C61274CC75E009FAE1A /* Assets.xcassets */; };
+		46315C65274CC75E009FAE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46315C63274CC75E009FAE1A /* LaunchScreen.storyboard */; };
+		46315C6D274CCE94009FAE1A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46315C6C274CCE94009FAE1A /* CollectionViewCell.swift */; };
+		46F0A76827568E2900FED752 /* resultCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F0A76727568E2900FED752 /* resultCV.swift */; };
+		82A776E45CEB5241F1B2CAA5 /* Pods_Image_stiching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504F7B349B7BC20D4C0B8F2A /* Pods_Image_stiching.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17B4BE5371F76659218C6034 /* Pods-Image stiching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image stiching.debug.xcconfig"; path = "Target Support Files/Pods-Image stiching/Pods-Image stiching.debug.xcconfig"; sourceTree = "<group>"; };
+		46315C55274CC75D009FAE1A /* Image stiching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image stiching.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46315C58274CC75D009FAE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46315C5A274CC75D009FAE1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46315C5C274CC75D009FAE1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46315C5F274CC75D009FAE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46315C61274CC75E009FAE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46315C64274CC75E009FAE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46315C66274CC75E009FAE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46315C6C274CCE94009FAE1A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		46F0A76727568E2900FED752 /* resultCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultCV.swift; sourceTree = "<group>"; };
+		504F7B349B7BC20D4C0B8F2A /* Pods_Image_stiching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Image_stiching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F8567E3772F69804D38300 /* Pods-Image stiching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Image stiching.release.xcconfig"; path = "Target Support Files/Pods-Image stiching/Pods-Image stiching.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46315C52274CC75D009FAE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A776E45CEB5241F1B2CAA5 /* Pods_Image_stiching.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46315C4C274CC75D009FAE1A = {
+			isa = PBXGroup;
+			children = (
+				46315C57274CC75D009FAE1A /* Image stiching */,
+				46315C56274CC75D009FAE1A /* Products */,
+				C6A930C8DA63DE08B006DE0F /* Pods */,
+				6230BD13E3FF397B6E755A8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46315C56274CC75D009FAE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46315C55274CC75D009FAE1A /* Image stiching.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46315C57274CC75D009FAE1A /* Image stiching */ = {
+			isa = PBXGroup;
+			children = (
+				46315C58274CC75D009FAE1A /* AppDelegate.swift */,
+				46315C5A274CC75D009FAE1A /* SceneDelegate.swift */,
+				46315C5C274CC75D009FAE1A /* ViewController.swift */,
+				46315C6C274CCE94009FAE1A /* CollectionViewCell.swift */,
+				46F0A76727568E2900FED752 /* resultCV.swift */,
+				46315C5E274CC75D009FAE1A /* Main.storyboard */,
+				46315C61274CC75E009FAE1A /* Assets.xcassets */,
+				46315C63274CC75E009FAE1A /* LaunchScreen.storyboard */,
+				46315C66274CC75E009FAE1A /* Info.plist */,
+			);
+			path = "Image stiching";
+			sourceTree = "<group>";
+		};
+		6230BD13E3FF397B6E755A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504F7B349B7BC20D4C0B8F2A /* Pods_Image_stiching.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A930C8DA63DE08B006DE0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17B4BE5371F76659218C6034 /* Pods-Image stiching.debug.xcconfig */,
+				76F8567E3772F69804D38300 /* Pods-Image stiching.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46315C54274CC75D009FAE1A /* Image stiching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46315C69274CC75E009FAE1A /* Build configuration list for PBXNativeTarget "Image stiching" */;
+			buildPhases = (
+				FE7349C3DBFA6198E7C9361A /* [CP] Check Pods Manifest.lock */,
+				46315C51274CC75D009FAE1A /* Sources */,
+				46315C52274CC75D009FAE1A /* Frameworks */,
+				46315C53274CC75D009FAE1A /* Resources */,
+				37F8445662121760D3E2668B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image stiching";
+			productName = "Image stiching";
+			productReference = 46315C55274CC75D009FAE1A /* Image stiching.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46315C4D274CC75D009FAE1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					46315C54274CC75D009FAE1A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 46315C50274CC75D009FAE1A /* Build configuration list for PBXProject "Image stiching" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46315C4C274CC75D009FAE1A;
+			productRefGroup = 46315C56274CC75D009FAE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46315C54274CC75D009FAE1A /* Image stiching */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46315C53274CC75D009FAE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46315C65274CC75E009FAE1A /* LaunchScreen.storyboard in Resources */,
+				46315C62274CC75E009FAE1A /* Assets.xcassets in Resources */,
+				46315C60274CC75D009FAE1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37F8445662121760D3E2668B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image stiching/Pods-Image stiching-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Image stiching/Pods-Image stiching-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Image stiching/Pods-Image stiching-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7349C3DBFA6198E7C9361A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Image stiching-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46315C51274CC75D009FAE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46315C5D274CC75D009FAE1A /* ViewController.swift in Sources */,
+				46315C59274CC75D009FAE1A /* AppDelegate.swift in Sources */,
+				46315C6D274CCE94009FAE1A /* CollectionViewCell.swift in Sources */,
+				46315C5B274CC75D009FAE1A /* SceneDelegate.swift in Sources */,
+				46F0A76827568E2900FED752 /* resultCV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46315C5E274CC75D009FAE1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46315C5F274CC75D009FAE1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46315C63274CC75E009FAE1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46315C64274CC75E009FAE1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46315C67274CC75E009FAE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46315C68274CC75E009FAE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46315C6A274CC75E009FAE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B4BE5371F76659218C6034 /* Pods-Image stiching.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C75GS86PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image stiching/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avneet.Image-stiching";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46315C6B274CC75E009FAE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F8567E3772F69804D38300 /* Pods-Image stiching.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C75GS86PG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image stiching/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avneet.Image-stiching";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46315C50274CC75D009FAE1A /* Build configuration list for PBXProject "Image stiching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46315C67274CC75E009FAE1A /* Debug */,
+				46315C68274CC75E009FAE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46315C69274CC75E009FAE1A /* Build configuration list for PBXNativeTarget "Image stiching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46315C6A274CC75E009FAE1A /* Debug */,
+				46315C6B274CC75E009FAE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46315C4D274CC75D009FAE1A /* Project object */;
+}
