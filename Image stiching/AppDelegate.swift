@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func initS3(){
         let credentialsProvider = AWSCognitoCredentialsProvider(regionType:.USEast1,
-           identityPoolId:"us-east-1:5a14d1b5-2b64-49a3-94f7-a6044367a567")
+           identityPoolId:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
         let configuration = AWSServiceConfiguration(region:.USEast1, credentialsProvider:credentialsProvider)
 
