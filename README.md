@@ -1,5 +1,5 @@
 # Image-stiching-panorama
-(Cloud Computing (AWS) project)
+Cloud Computing project (AWS)
 
 Implemented image stitching to create a panaromic image on AWS and displayed results on mobile app
 
@@ -16,15 +16,14 @@ Implemented image stitching to create a panaromic image on AWS and displayed res
 
 ## Features and Libraries used <a name="part2"></a>
 
-* [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField) to implement Float Label Pattern
-* [SDWebImage](https://github.com/SDWebImage/SDWebImage) for displaying article images from url
-* [M13Checkbox](https://github.com/Marxon13/M13Checkbox) for creating customizable chackBoxes
-* [MTSlideToOpen](https://github.com/lemanhtien/MTSlideToOpen) for creating a SlideToPay UI component
-* [CardScan](https://github.com/getbouncer/cardscan-ios) for scanning card. Payment processing not implemented, simply incorporated a "scan card" feature.
+* AWSS3, AWSCognito, AWSCore
+* UIImagePickerController
+* NSHomeDirectory
+* Download to save in Gallery
 
 ___
 
 ## What I have Learnt <a name="part3"></a>
 
-* Essentially, building an application from scratch.
-* The R&D process
+* AWS - S3 bucket, Cognito, lambda
+* Connecting AWS account to mobile application
