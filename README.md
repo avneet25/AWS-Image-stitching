@@ -18,4 +18,5 @@ ___
 ## What I have Learnt <a name="part2"></a>
 
 * AWS - S3 bucket, Cognito, lambda
-* Connecting AWS account to mobile application
+* Connecting AWS to mobile application and communication between the two
+* AWS roles and authetication requirements
